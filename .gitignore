@@ -1,0 +1,50 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+secrets/
+credentials/
+
+# Trading databases and records
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+data/
+logs/
+telemetry/
+reports/
+backups/
+
+# FIX session state and messages
+fix_store/
+fix_logs/
+*.fixlog
+
+# Local development files
+.vscode/
+.idea/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
